@@ -288,3 +288,31 @@ nav ul li:hover a,.active a{
 ul.d-flex.media li {
     margin-right: 15px;
 }
+.vedio{
+    background-color: var(--pramry);
+    width: 100%;
+    position: relative;
+    padding-bottom: 100px !important;
+}
+.vedio h1{
+    color: #fff;
+    font-size: 2rem;
+}
+.vedio p{
+    line-height: 2.4;
+    color: #d9d9d9;
+    padding-bottom: 80px;
+}
+.vedio-container{
+    width: 50%;
+    margin: 15px 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+video{
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+}
